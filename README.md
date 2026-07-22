@@ -1,4 +1,4 @@
-# carp
+# Carp
 
 For those "Oh Crap!" moments where you mistyped. 🎏
 
@@ -24,9 +24,6 @@ Install with [Fisher](https://github.com/jorgebucaran/fisher "fish plugin manage
 ```fish
 fisher install jernev/carp
 ```
-```
-```
-
 
 Carp binds the `enter` key. On uninstall, it removes that binding and Fish falls
 back to its preset Enter binding.
