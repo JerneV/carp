@@ -19,8 +19,7 @@ Obviously, you also need some kind of shell completion for the command you are u
 
 ## Skip list
 
-Some commands are a poor fit for Ccarp. If Fish completions are user-specific data rather than a fixed subcommand vocabulary, carp can "correct" a valid new value into a frequently used one — for example, `ssh server02` becoming
-`ssh server01` because `server01` is in your connection history.
+Some commands are a poor fit for Carp. If Fish completions are user-specific data rather than a fixed subcommand vocabulary, carp can "correct" a valid new value into a frequently used one.
 
 Carp skips correction for commands in `carp_skip_commands`. On first install,
 the defaults are:
