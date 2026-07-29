@@ -23,7 +23,7 @@ end
 
 function _carp_uninstall --on-event carp_uninstall
     _carp_unbind
-    functions --erase carp _carp_suggestion
+    functions --erase carp _carp_suggestion _carp_skip_command
     functions --erase _carp_bind _carp_unbind _carp_install _carp_update _carp_uninstall
 end
 
